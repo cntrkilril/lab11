@@ -15,6 +15,11 @@ $(document).ready(
                 $(this).css("color", "black");
             }
         })
+        $(".name").hover(
+            function() {
+                $(".name").css("background-color", "black");
+            }
+        )
         $("textarea").focus(function(){
             $(this).css("background-color", "#cccccc");
         });
@@ -43,6 +48,11 @@ $(document).ready(
         $(".kol1").click(
             function() {
                 $(this).toggleClass("highlight");
+            }
+        )
+        $("#hideimg").click(
+            function() {
+                $(".mem").slideUp(2000).slideDown(2000);
             }
         )
     }
