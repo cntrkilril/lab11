@@ -8,7 +8,7 @@ body {
 }
 h1 {
     text-align: center;
-    font-size: 6em;
+    font-size: 4em;
     margin-bottom: 0em;
 }
 hr {
@@ -21,6 +21,31 @@ hr {
 }
 .pole {
     resize: horizontal;
+}
+.info {
+    color: teal;
+    text-align: center;
+    background-color: thistle;
+    padding: 2rem;
+    font-size: 2 rem;
+    font-style: italic;
+    border: 0.2em solid black;
+}
+.hide {
+    padding: 1rem;
+    color: white;
+    background-color: teal;
+    margin-left: 37%;
+    width: 400px;
+    text-align: center;
+}
+.name {
+    color: white;
+    text-align: center;
+}
+#shrek {
+    font-size: 3rem;
+    color: yellow;
 }
 .kol1 {
     border: 0.2em solid black;
@@ -47,4 +72,8 @@ hr {
 }
 .mem:hover {
     transform: scaleX(-1);
+}
+.highlight {
+    background-color: black;
+    color: white;
 }
