@@ -1,5 +1,12 @@
+$( function() {
+    $( "#accordion" ).accordion();
+  } );
+  $( function() {
+    $( "#datepicker" ).datepicker();
+  } );
 $(document).ready(
     function() {
+        swal("Привет!!! Ты на сайте фанов лучшего существа на этой планете...");
         $("#fan").hide();
         var Switch=0;
         $("h1").on( {

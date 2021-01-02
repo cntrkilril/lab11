@@ -39,6 +39,14 @@ hr {
     width: 400px;
     text-align: center;
 }
+.dateof {
+    color: black;
+    font-size: 2rem;
+}
+#datepicker {
+    height: 20px;
+    width: 250px;
+}
 .name {
     color: white;
     text-align: center;
@@ -76,4 +84,7 @@ hr {
 .highlight {
     background-color: black;
     color: white;
+}
+#accordion {
+    font-size: 1rem;
 }
